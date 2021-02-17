@@ -24,7 +24,7 @@
       width: 100%;
     }
         
-    .top-wrapper {
+    .top-main {
       text-align: left;
     }
     
@@ -39,12 +39,12 @@
     }
     
     .top-main h1 {
-      font-size: 24px;
+      font-size: 20px;
       line-height: 36px;
     }
     
     .top-main p {
-      font-size: 14px;
+      font-size: 13px;
       line-height: 20px;
     }
   }
