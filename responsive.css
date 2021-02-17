@@ -39,14 +39,27 @@
     }
     
     .top-main h1 {
-      font-size: 16px;
+      font-size: 30px;
       line-height: 36px;
     }
     
     .top-main p {
-      font-size: 11px;
+      font-size: 18px;
       line-height: 20px;
     }
+
+    .middle-main h1 {
+      opacity: 1;
+      font-size: 30px;
+      color: white;
+      letter-spacing: 5px;    
+    }
+
+  .middle-main p {
+    opacity: 1;
+    color: white;
+    text-align: justify;
+  }
 
     .bottom-main {
       border-bottom: 1px solid black;
