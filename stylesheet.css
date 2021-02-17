@@ -165,8 +165,8 @@ header {
 
 .point-icon {
     position: relative;
-    border: 3px solid #1a1a1a;
-    border-radius: 5px;
+    /* border: 3px solid #1a1a1a; */
+    /* border-radius: 5px; */
     padding:0px;
     margin-right: 23px;
 }
@@ -196,17 +196,19 @@ td {
 }
 
 .bottom-main {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid black;
     padding-bottom: 30px;
     text-align: center;
+    background-color: #1a1a1a;
 }
   
 footer p {
-    color: black;
+    color: #b3aeb5;
     font-size: 12px;
 }
   
 footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1a1a1a;
 }
