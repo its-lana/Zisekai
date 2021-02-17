@@ -1,6 +1,6 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
-    .top-wrapper h1 {
+    .top-main h1 {
         font-size: 32px;
     }
 
@@ -46,5 +46,12 @@
     .top-main p {
       font-size: 11px;
       line-height: 20px;
+    }
+
+    .bottom-main {
+      border-bottom: 1px solid black;
+      padding-bottom: 30px;
+      text-align: center;
+      background-color: #1a1a1a;
     }
   }
