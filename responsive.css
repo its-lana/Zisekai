@@ -2,6 +2,11 @@
 @media all and (max-width: 1000px) {
     .top-wrapper h1 {
         font-size: 32px;
+    }
+
+    .point {
+      width: 50%;
+      margin-bottom: 50px;
     }    
 }
 
@@ -9,6 +14,10 @@
 @media all and (max-width: 670px) {
     footer {
       text-align: center;
+    }
+
+    .point {
+      width: 100%;
     }
     
     .btn {
