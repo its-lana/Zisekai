@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-main {
+    padding: 180px 0 100px 0;
+    background-image: url('image/bg.png');
+    height: 1000px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-main h1 {
+    opacity: 1;
+    font-size: 130px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-main p {
+    opacity: 1;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+.btn-main {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.selengkapnya {
+    border: 3px solid white;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 90;
+}
+
+.header-left {
+    float: left;
+    margin-left: -25px;
+}
+  
+.header-right {
+    float: right;
+}
+
+.header-left a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: right;
+    transition: all 0.5s;
+  }
+  
+.header-left a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+    color: white;
+    float: left;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+.middle-main {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #1a1a1a;
+    text-align: center;
+  }
+
+
+.middle-main h1 {
+    opacity: 1;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 5px;    
+}
+
+.middle-main h2 {
+    opacity: 1;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.middle-main p {
+    opacity: 1;
+    color: white;
+    text-align: justify;
+}
+
+.point {
+    float: left;
+    width: 33%;
+    padding-top: 30px;
+}
+
+.point-desc {
+    float: left;
+    width: 60%;
+    padding-top: 30px;
+}
+
+.point-icon {
+    position: relative;
+    border: 3px solid #1a1a1a;
+    border-radius: 5px;
+    padding:0px;
+    margin-right: 23px;
+}
+
+.point-icon p {
+    position: absolute;
+    top: 60%;
+    width: 95%;
+    color: white;
+    font-size: 30px;
+    text-align:right ;
+}
+
+td {
+    /* border: 2px solid black; */
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.bottom-main {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+    text-align: center;
+}
+  
+footer p {
+    color: black;
+    font-size: 12px;
+}
+  
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
