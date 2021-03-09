@@ -1,11 +1,11 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
     .top-main h1 {
-        font-size: 32px;
+        font-size: 46px;
     }
 
     .point {
-      width: 50%;
+      width: 60%;
       margin-bottom: 50px;
     }    
 }

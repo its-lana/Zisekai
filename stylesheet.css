@@ -119,7 +119,7 @@ header {
     float: left;
     font-size: 25px;
     padding: 21px 0;
-    display: none;
+    display: block;
 }
 
 .middle-main {
