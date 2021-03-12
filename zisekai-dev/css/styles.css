@@ -9779,6 +9779,7 @@ button.bg-dark:focus {
 
 .text-primary {
   color: rgba(34, 49, 52, 0.9)  !important;
+  font-family: 'Montserrat', sans-serif;
 }
 /* #3841bd */
 a.text-primary:hover, a.text-primary:focus {
